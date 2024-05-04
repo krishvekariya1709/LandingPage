@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Candal";
+}
+.main{
+    display: flex;
+    justify-content: center;
+    
+}
+.logo img{
+    width: 200px;
+    height: 100px;
+    
+}
+.text-main{
+    display: flex;
+    align-items: center;
+    margin: 0px 60px;
+}
+.text-main h2{
+    color: #ff914d;
+    font-size: 45px;
+    z-index: 2;
+}
+.bubble-1{
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    background-color: #fffeb4;
+    position: absolute;
+    left: 315px;
+    top: -250px;
+}
+
+.picture-2 img{
+    height: 400px;
+    z-index: 1;
+    position: absolute;
+    right: 130px;
+    top: 250px;
+}
+
+.bubble-2{
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
+    background-color: #fffeb4;
+    position: absolute;
+    right: -138px;
+    top: 130px;
+}
+.bubble-3{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    background-color: #fffeb4;
+    position: absolute;
+    left: 120px;
+    top: 270px;
+ 
+}
+.about{
+    position: absolute;
+    top: 330px;
+    left: 141px;
+}
+.about h2{
+    font-size: 38px;
+   margin-bottom: 25px;
+}
+.about p{
+    width: 739px;
+    font-weight: 100;
+    font-size: 16px;
+}
+.about-photo img{
+    height: 150px;
+    margin: 0px 30px;
+}
+.about-photo{
+    position: absolute;
+    top: 720px;
+}
+
+.objective{
+    position: absolute;
+    top: 920px;
+}
+.objective h2{
+    font-size: 38px;
+    margin-bottom: 30px;
+}
+.objective ul{
+    width: 610px;
+    left: -320px;
+    position: absolute;
+    z-index: 2;
+    font-size: 20px;
+    top: 140px;
+}
+.objective p{
+    font-size: 16px;
+}
+.objective-img img{
+    right: -440px;
+    position: absolute;
+    top: 130px;
+}
+.bubble-4{
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
+    background-color: #fffeb4;
+    position: absolute;
+    top: 1000px;
+    left: -100px;
+}
+.course{
+    position: absolute;
+    top: 1650px;
+    font-size: 38px;
+}
+.course h2{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+.courses-img img{
+    height: 200px;
+    z-index: 2;
+    position: relative;
+    margin: 20px 20px;
+}
+.courses-img{
+    position: relative;
+    left: 150px;
+}
+.bubble-5{
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
+    background-color: #fffeb4;
+    position: absolute;
+    top: 1630px;
+    right: -130px;
+}
+.bubble-6{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color: #fffeb4;
+    position: absolute;
+    top: 2220px;
+    right: 400px;
+    
+}
+.course-giving h2{
+    font-size: 38px;
+    display: flex;
+    justify-content: center;
+}
+.course-giving{
+    position: absolute;
+    top: 2480px;
+
+}
+.course-giving-img img{
+    height: 400px;
+    right: 367px;
+    position: relative;
+    z-index: 2;
+    top: -340px;
+}
+.bubble-7{
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
+    background-color: #fffeb4;
+    position: absolute;
+    left: -590px;
+    top: 50px;
+    
+}
+.course-giving ol{
+    left: 402px;
+    position: relative;
+    top: 110px;
+    font-size: 16px;
+}
+
+.course-arrangement h2{ 
+        font-size: 38px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+}
+
+.course-arrangement{
+    position: absolute;
+    top: 3190px;
+}
+
+.course-arrangement ul{
+    font-size: 20px;
+}
+.bubble-8{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color: #fffeb4;
+    position: absolute;
+  right: -450px;
+  top: 20px;
+    
+}
+.whatsapp{
+    position: absolute;
+    top: 650px;
+    right: 70px;
+    position: fixed;
+}
+.whatsapp img{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    background: #ff914d;
+}
